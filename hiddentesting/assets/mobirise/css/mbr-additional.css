@@ -1387,11 +1387,31 @@ body {
   background-color: #149dcc;
   color: #ffffff;
 }
-.jq-selectbox .jq-selectbox__trigger-arrow {
-  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
 }
-.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
   border-top-color: #149dcc;
+  border-bottom-color: #149dcc;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #149dcc !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #ff3366 !important;
+  box-shadow: none !important;
 }
 .cid-qTkA127IK8 {
   background-image: url("../../../assets/images/img-1590-2000x1500.jpg");
@@ -1399,12 +1419,12 @@ body {
 .cid-rovuzUfoCC {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("../../../assets/images/img-8835-2000x2667.jpg");
+  background-image: url("../../../assets/images/img-3954-2000x1500.jpg");
 }
 .cid-rovv9dXFBA {
   padding-top: 105px;
   padding-bottom: 105px;
-  background: linear-gradient(45deg, #0f7699, #ff7f9f);
+  background-image: url("../../../assets/images/img-8835-2000x2667.jpg");
 }
 @media (min-width: 992px) {
   .cid-rovv9dXFBA .mbr-figure {
@@ -1419,8 +1439,12 @@ body {
 .cid-rovwuRir4J {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ff3366;
+  background-image: url("../../../assets/images/img-1919-2000x1500.jpg");
 }
 .cid-rovwuRir4J P {
   color: #767676;
+}
+.cid-rovwuRir4J H1 {
+  text-align: center;
+  color: #ffffff;
 }

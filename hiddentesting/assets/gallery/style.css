@@ -15,23 +15,6 @@
 @media (max-width: 400px) {
   .mbr-gallery .mbr-gallery-item {
     width: 100%; } }
-.mbr-gallery .icon-focus,
-.mbr-gallery .icon-video {
-  position: absolute;
-  top: calc(50% - 32px);
-  left: calc(50% - 24px);
-  font-family: 'MobiriseIcons' !important;
-  font-size: 3rem !important;
-  color: #fff;
-  opacity: 0;
-  transition: .2s opacity ease-in-out;
-  z-index: 5; }
-
-.mbr-gallery .icon-focus::before {
-  content: '\e96b'; }
-
-.mbr-gallery .icon-video::before {
-  content: '\e95c'; }
 
 .mbr-gallery .mbr-gallery-item > div:hover .icon-focus,
 .mbr-gallery .mbr-gallery-item > div:hover .icon-video {

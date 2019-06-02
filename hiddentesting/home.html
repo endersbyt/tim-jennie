@@ -142,17 +142,21 @@
 	video.appendChild(source);
 	video.addEventListener("playing", function() {
         if (video.requestFullscreen) {
-                        video.requestFullscreen();
-                    }
-                    else if (video.msRequestFullscreen) {
-                        video.msRequestFullscreen();
-                    }
-                    else if (video.mozRequestFullScreen) {
-                        video.mozRequestFullScreen();
-                    }
-                    else if (video.webkitRequestFullScreen) {
-                        video.webkitRequestFullScreen();
-                    }
+				video.requestFullscreen();
+				alert("bland");
+			}
+			else if (video.msRequestFullscreen) {
+				video.msRequestFullscreen();
+				alert("ms");
+			}
+			else if (video.mozRequestFullScreen) {
+				video.mozRequestFullScreen();
+				alert("moz");
+			}
+			else if (video.webkitRequestFullScreen) {
+				video.webkitRequestFullScreen();
+				alert("webkit");
+			}
     });
   
   </script>

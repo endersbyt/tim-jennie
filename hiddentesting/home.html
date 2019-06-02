@@ -130,15 +130,15 @@
   <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script>
-  var video = document.getElementById('player');
-  var source = document.createElement('source');
-  if (navigator.userAgent.match(/Mobile/)) {
-	video.poster = 'assets/videos/vertical.jpg';
-	source.setAttribute('src', 'assets/videos/Vertical.mov');
+	var video = document.getElementById('player');
+	var source = document.createElement('source');
+	if (navigator.userAgent.match(/Mobile/)) {
+		video.poster = 'assets/videos/vertical.jpg';
+		source.setAttribute('src', 'assets/videos/Vertical.mov');
 	}else{
-	video.poster = 'assets/videos/widescreen.jpg';
-	source.setAttribute('src', 'assets/videos/Widescreen.mov');
-   }
+		video.poster = 'assets/videos/widescreen.jpg';
+		source.setAttribute('src', 'assets/videos/Widescreen.mov');
+	}
 /*
 	video.appendChild(source);
 	video.addEventListener("playing", function() {

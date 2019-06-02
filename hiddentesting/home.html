@@ -141,7 +141,18 @@
 
 	video.appendChild(source);
 	video.addEventListener("playing", function() {
-        video.requestFullscreen();
+        if (video.requestFullscreen) {
+                        video.requestFullscreen();
+                    }
+                    else if (video.msRequestFullscreen) {
+                        video.msRequestFullscreen();
+                    }
+                    else if (video.mozRequestFullScreen) {
+                        video.mozRequestFullScreen();
+                    }
+                    else if (video.webkitRequestFullScreen) {
+                        video.webkitRequestFullScreen();
+                    }
     });
   
   </script>

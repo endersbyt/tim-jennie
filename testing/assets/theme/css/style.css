@@ -1,8 +1,21 @@
 @charset "UTF-8";
-/*!
- * Mobirise v4 theme (https://mobirise.com/)
- * Copyright 2017 Mobirise
- */
+
+@media only screen and (min-width: 992px) {
+  .carousel-control {
+    display: none !important;
+  }
+}
+
+.step-wrapper {
+	display: none !important;
+}
+
+@media only screen and (min-width: 780px) {
+  .tim-homepageTitle {
+    font-size:6rem;
+  }
+}
+
 section {
   background-color: #eeeeee;
 }

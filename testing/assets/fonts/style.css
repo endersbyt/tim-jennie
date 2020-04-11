@@ -8,3 +8,8 @@
    font-display: swap;
    src: url('Grayscale Signature/font.ttf');
 }
+@font-face {
+   font-family: 'CMGSans-Regular';
+   font-display: swap;
+   src: url('CMGSans-Regular/font.ttf');
+}

@@ -16,6 +16,10 @@
   }
 }
 
+.tim-menuTitle {
+    font-weight: normal;
+}
+
 section {
   background-color: #eeeeee;
 }

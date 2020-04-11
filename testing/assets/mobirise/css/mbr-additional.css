@@ -468,10 +468,6 @@ a.text-danger:hover,
 a.text-danger:focus {
   color: #7a6e45 !important;
 }
-a.text-white:hover,
-a.text-white:focus {
-  color: #b3b3b3 !important;
-}
 a.text-black:hover,
 a.text-black:focus {
   color: #4d4d4d !important;
@@ -1035,8 +1031,8 @@ section.lazy-placeholder:after {
   background-image: url("../../../assets/images/timjennie-51-2000x1335.jpeg");
 }
 .cid-rVFE0liMIu {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   background-color: #ffffff;
 }
 .cid-rVFE0liMIu .mbr-section-subtitle {

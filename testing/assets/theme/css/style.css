@@ -20,6 +20,52 @@
     font-weight: normal;
 }
 
+
+@media screen and (max-width: 766px){
+    .RSVP-iframe{
+        overflow:hidden;
+        height: 2400px;
+        width: 100%;
+        top:-170px;
+        position: absolute;
+        clip: rect(170px, auto, 2180px, auto);
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px){
+    .RSVP-iframe{
+        overflow:hidden;
+        height: 2400px;
+        width: 100%;
+        top:-200px;
+        position: absolute;
+        clip: rect(200px, auto, 2180px, auto);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1500px){
+    .RSVP-iframe{
+        overflow:hidden;
+        height: 2400px;
+        width: 100%;
+        top:-260px;
+        position: absolute;
+        clip: rect(260px, auto, 2240px, auto);
+    }
+}
+
+@media screen and (min-width: 1501px){
+    .RSVP-iframe{
+        overflow:hidden;
+        height: 2400px;
+        width: 100%;
+        top:-280px;
+        position: absolute;
+        clip: rect(280px, auto, 2260px, auto);
+    }
+}
+
+
 section {
   background-color: #eeeeee;
 }

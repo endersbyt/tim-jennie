@@ -29,6 +29,7 @@
         top:-170px;
         position: absolute;
         clip: rect(170px, auto, 2180px, auto);
+        z-index: -10;
     }
 }
 

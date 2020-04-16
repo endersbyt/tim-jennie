@@ -15,6 +15,12 @@
     display:none;
 }
 
+@media screen and (min-width: 768px){
+    .schedule {
+        padding-bottom: 2rem !important;
+    }
+}
+
 /* RSVP Page */
 @media screen and (max-width: 766px){
     .RSVP-iframe{

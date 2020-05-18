@@ -679,11 +679,11 @@ section.lazy-placeholder:after {
 .cid-rVzWM1wvfa .menu-logo .navbar-brand .navbar-caption-wrap .navbar-caption {
   line-height: 1.2rem !important;
   padding-right: 2rem;
-  font-weight: normal;
 }
 .cid-rVzWM1wvfa .menu-logo .navbar-brand .navbar-logo {
   font-size: 4rem;
   transition: font-size 0.25s;
+    font-weight: normal;
 }
 .cid-rVzWM1wvfa .menu-logo .navbar-brand .navbar-logo img {
   display: flex;
@@ -1546,7 +1546,7 @@ section.lazy-placeholder:after {
 .cid-rW8XTSwfT3 {
   padding-top: 135px;
   padding-bottom: 135px;
-  background-image: url("../../../assets/images/background4.jpg");
+  background-image: url("../../../assets/images/tim-jennie-engagement-05132020-89-2000x1333.jpeg");
 }
 .cid-rWfEc3Ejmv {
   padding-top: 90px;

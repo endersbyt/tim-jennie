@@ -679,11 +679,11 @@ section.lazy-placeholder:after {
 .cid-rVzWM1wvfa .menu-logo .navbar-brand .navbar-caption-wrap .navbar-caption {
   line-height: 1.2rem !important;
   padding-right: 2rem;
+  font-weight: normal;
 }
 .cid-rVzWM1wvfa .menu-logo .navbar-brand .navbar-logo {
   font-size: 4rem;
   transition: font-size 0.25s;
-    font-weight: normal;
 }
 .cid-rVzWM1wvfa .menu-logo .navbar-brand .navbar-logo img {
   display: flex;

@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
 
 
+
 body {
   font-family: Rubik;
 }
@@ -679,7 +680,7 @@ section.lazy-placeholder:after {
 .cid-rVzWM1wvfa .menu-logo .navbar-brand .navbar-caption-wrap .navbar-caption {
   line-height: 1.2rem !important;
   padding-right: 2rem;
-  font-weight: normal;
+    font-weight: normal;
 }
 .cid-rVzWM1wvfa .menu-logo .navbar-brand .navbar-logo {
   font-size: 4rem;
@@ -1079,6 +1080,9 @@ section.lazy-placeholder:after {
     padding-bottom: 1.5rem;
   }
 }
+.cid-rVFE0liMIu .mbr-step-text {
+  text-align: center;
+}
 .cid-rVFCD00AmO {
   padding-top: 135px;
   padding-bottom: 135px;
@@ -1096,53 +1100,6 @@ section.lazy-placeholder:after {
   padding-top: 135px;
   padding-bottom: 135px;
   background-image: url("../../../assets/images/timjennie-141-2000x1335.jpeg");
-}
-.cid-rW9KV4u8MW {
-  padding-top: 60px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-rW9KV4u8MW .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-rW9KwXeH4W {
-  padding-top: 0px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-rW9KwXeH4W h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-  padding-top: 2rem;
-}
-.cid-rW9KwXeH4W p {
-  margin-bottom: 0;
-  text-align: left;
-  padding-top: 1.5rem;
-  padding-top: 2rem;
-}
-.cid-rW9KwXeH4W .mbr-section-btn {
-  padding-top: 2.5rem;
-}
-.cid-rW9KwXeH4W .mbr-section-btn a {
-  margin: 0;
-}
-.cid-rW9KwXeH4W .mbr-text {
-  color: #767676;
-}
-.cid-rW9KwXeH4W .card-wrapper {
-  height: 100%;
-}
-@media (max-width: 767px) {
-  .cid-rW9KwXeH4W .card:not(.last-child) {
-    padding-bottom: 2rem;
-  }
-}
-.cid-rVFTvnSPuW {
-  padding-top: 135px;
-  padding-bottom: 135px;
-  background-image: url("../../../assets/images/img-8879-2000x1333.jpeg");
 }
 .cid-rVzWM1wvfa .navbar {
   background: #767676;
@@ -1619,7 +1576,7 @@ section.lazy-placeholder:after {
 .cid-rW8Yy8fPlv {
   padding-top: 135px;
   padding-bottom: 135px;
-  background-image: url("../../../assets/images/background4.jpg");
+  background-image: url("../../../assets/images/tim-jennie-engagement-05132020-59-2000x1333.jpeg");
 }
 .cid-rVzWM1wvfa .navbar {
   background: #767676;
@@ -3067,5 +3024,5 @@ section.lazy-placeholder:after {
 .cid-rW62TNreoW {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("../../../assets/images/background4.jpg");
+  background-image: url("../../../assets/images/tim-jennie-engagement-05132020-70-2000x1333.jpeg");
 }

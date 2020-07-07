@@ -21,6 +21,10 @@
     }
 }
 
+.photoLeft{
+    background-position: 20% 50% !important;
+}
+
 /* RSVP Page */
 @media screen and (max-width: 766px){
     .RSVP-iframe{
@@ -129,7 +133,6 @@
 }
 
 /* Engine built */
-
 section {
   background-color: #eeeeee;
 }

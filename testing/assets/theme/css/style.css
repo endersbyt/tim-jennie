@@ -1,7 +1,87 @@
-/*!
- * Mobirise v4 theme (https://mobirise.com/)
- * Copyright 2017 Mobirise
- */
+/* Homepage */
+@media only screen and (min-width: 780px) {
+  .tim-homepageTitle {
+    font-size:6rem;
+  }
+}
+
+.tim-menuTitle {
+    font-weight: normal;
+}
+
+.step-wrapper{
+    display:none;
+}
+
+@media screen and (min-width: 768px){
+    .schedule {
+        padding-bottom: 2rem !important;
+    }
+}
+
+
+/* RSVP Page */
+@media screen and (max-width: 766px){
+    .RSVP-iframe{
+        overflow:hidden;
+        height: 2400px;
+        width: 100%;
+        top:-170px;
+        position: absolute;
+        clip: rect(170px, auto, 2180px, auto);
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px){
+    .RSVP-iframe{
+        overflow:hidden;
+        height: 2400px;
+        width: 100%;
+        top:-200px;
+        position: absolute;
+        clip: rect(200px, auto, 2180px, auto);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1500px){
+    .RSVP-iframe{
+        overflow:hidden;
+        height: 2400px;
+        width: 100%;
+        top:-260px;
+        position: absolute;
+        clip: rect(260px, auto, 2240px, auto);
+    }
+}
+
+@media screen and (min-width: 1501px){
+    .RSVP-iframe{
+        overflow:hidden;
+        height: 2400px;
+        width: 100%;
+        top:-280px;
+        position: absolute;
+        clip: rect(280px, auto, 2260px, auto);
+    }
+}
+
+/* Wedding Party */
+.card-title{
+	text-align: center !important;
+}
+
+.p-3{
+	padding-left: 3rem !important;
+	padding-right: 3rem !important;
+}
+
+.features2{
+    padding-top: 0px !important;
+    padding-bottom:0px !important;
+}
+
+/* Engine built */
+
 section {
   background-color: #eeeeee;
 }

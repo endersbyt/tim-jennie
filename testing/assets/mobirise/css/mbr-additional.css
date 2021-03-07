@@ -468,10 +468,6 @@ a.text-danger:hover,
 a.text-danger:focus {
   color: #7a6e45 !important;
 }
-a.text-white:hover,
-a.text-white:focus {
-  color: #b3b3b3 !important;
-}
 a.text-black:hover,
 a.text-black:focus {
   color: #4d4d4d !important;
@@ -745,6 +741,7 @@ section.lazy-placeholder:after {
 .cid-rVzWM1wvfa .menu-logo .navbar-brand .navbar-caption-wrap .navbar-caption {
   line-height: 1.2rem !important;
   padding-right: 2rem;
+  font-weight: normal;
 }
 .cid-rVzWM1wvfa .menu-logo .navbar-brand .navbar-logo {
   font-size: 4rem;

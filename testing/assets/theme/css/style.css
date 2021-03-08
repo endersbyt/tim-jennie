@@ -24,14 +24,16 @@
 @media screen and (max-width: 766px){
     .RSVP-iframe{
         overflow:hidden;
-        height: 1700px;
+        height: 1750px;
         width: 100%;
         top:-170px;
         position: absolute;
-        clip: rect(170px, auto, 1510px, auto);
+        /*clip: rect(170px, auto, 1530px, auto);*/
+        z-index: -1;
     }
 }
 
+/*
 @media screen and (min-width: 767px) and (max-width: 991px){
     .RSVP-iframe{
         overflow:hidden;
@@ -52,7 +54,7 @@
         position: absolute;
         clip: rect(260px, auto, 2240px, auto);
     }
-}
+}*/
 
 @media screen and (min-width: 1501px){
     .RSVP-iframe{

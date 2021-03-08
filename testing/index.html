@@ -26,9 +26,6 @@
   <link href="assets/fonts/style.css" rel="stylesheet">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
-  
-  
 </head>
 <body>
   
@@ -236,8 +233,42 @@
     </div>
 
 </section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: none;"><a href="https://mobirise.site/y" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  
-  
+
+  <script type="text/javascript">
+    function replaceMainImage() {
+        var background = document.getElementById('jarallax-container-0').getElementsByTagName('div')[0];
+        background.style.backgroundImage = "url('assets/images/2.jpg')";
+    }
+
+    function support_format_webp() {
+        var elem = document.createElement('canvas');
+        if (!!(elem.getContext && elem.getContext('2d'))) {
+            // was able or not to get WebP representation
+            return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+        }
+        else {
+            // very old browser like IE 8, canvas not supported
+            return false;
+        }
+    }
+$(window).bind("load", function() {
+    document.getElementById("top-1").style.display = "none";
+    setTimeout(function() {
+        document.getElementById("top-1").style.display = "none";
+        if (support_format_webp() == false) {
+            replaceMainImage()
+        }
+        
+        }, 1500);
+    setTimeout(function() {
+        document.getElementById("top-1").style.display = "none";
+        if (support_format_webp() == false) {
+            replaceMainImage()
+        }
+        }, 5000);
+    });
+</script>
+    
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
     <input name="animation" type="hidden">
   </body>

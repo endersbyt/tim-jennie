@@ -29,7 +29,7 @@
         top:-170px;
         position: absolute;
         clip: rect(170px, auto, 1530px, auto);*/
-        z-index: -1;
+        z-index: -5;
     }
 }
 
@@ -41,7 +41,7 @@
         width: 100%;
         top:-200px;
         position: absolute;
-        z-index: -1;
+        z-index: -5;
         clip: rect(200px, auto, 1580px, auto);
     }
 }
@@ -53,7 +53,7 @@
         width: 100%;
         top:-260px;
         position: absolute;
-        z-index: -1;
+        z-index: -5
         clip: rect(260px, auto, 1640px, auto);
     }
 }
@@ -65,7 +65,7 @@
         width: 100%;
         top:-280px;
         position: absolute;
-        z-index: -1;
+        z-index: -5;
         clip: rect(280px, auto, 1660px, auto);
     }
 }
@@ -89,7 +89,6 @@
         width: 85% !important;
     }
 }
-
 
 
 /* Engine built */

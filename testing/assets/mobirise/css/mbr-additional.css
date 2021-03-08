@@ -2950,29 +2950,12 @@ section.lazy-placeholder:after {
   color: #232323;
 }
 .cid-rW632lXprG {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 75px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-rW632lXprG H2 {
   color: #232323;
-}
-.cid-rW4GBec0wK {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-rW4GBec0wK .mbr-text,
-.cid-rW4GBec0wK blockquote {
-  color: #767676;
-}
-.cid-rW4GBec0wK .mbr-text {
-  color: #232323;
-}
-.cid-rW62TNreoW {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-image: url("../../../assets/images/timjennie-57-2000x1335.jpeg");
 }
 .cid-sqVgQbUaFf {
   padding-top: 60px;
@@ -2993,23 +2976,102 @@ section.lazy-placeholder:after {
   color: #000000;
   text-align: left;
 }
-.cid-sqVgRUS34d {
+.cid-sr63152jcn {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-sr63152jcn .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-sr63152jcn .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sr63152jcn .media-container-row {
+    flex-wrap: wrap-reverse;
+    -webkit-flex-wrap: wrap-reverse;
+  }
+  .cid-sr63152jcn .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-sr63152jcn .mbr-text {
+  color: #000000;
+  text-align: left;
+}
+.cid-sr63ik51bT {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
 @media (min-width: 992px) {
-  .cid-sqVgRUS34d .mbr-figure {
+  .cid-sr63ik51bT .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .cid-sr63ik51bT .mbr-figure {
+    padding-top: 1rem;
+  }
+}
+.cid-sr63ik51bT .mbr-text {
+  color: #000000;
+  text-align: left;
+}
+.cid-sr63iIriZy {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-sr63iIriZy .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-sr63iIriZy .mbr-figure {
     padding-right: 4rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-sqVgRUS34d .mbr-figure {
+  .cid-sr63iIriZy .media-container-row {
+    flex-wrap: wrap-reverse;
+    -webkit-flex-wrap: wrap-reverse;
+  }
+  .cid-sr63iIriZy .mbr-figure {
     padding-bottom: 1rem;
   }
 }
-.cid-sqVgRUS34d .mbr-text {
-  color: #767676;
+.cid-sr63iIriZy .mbr-text {
+  color: #000000;
+  text-align: left;
+}
+.cid-sr63RBHXEZ {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-sr63RBHXEZ .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .cid-sr63RBHXEZ .mbr-figure {
+    padding-top: 1rem;
+  }
+}
+.cid-sr63RBHXEZ .mbr-text {
+  color: #000000;
+  text-align: left;
+}
+.cid-rW62TNreoW {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/timjennie-57-2000x1335.jpeg");
 }
 .cid-rVzWM1wvfa .navbar {
   background: #767676;

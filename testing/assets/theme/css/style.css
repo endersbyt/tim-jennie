@@ -24,11 +24,11 @@
 @media screen and (max-width: 766px){
     .RSVP-iframe{
         overflow:hidden;
-        height: 2400px;
+        height: 1700px;
         width: 100%;
         top:-170px;
         position: absolute;
-        clip: rect(170px, auto, 2180px, auto);
+        clip: rect(170px, auto, 1510px, auto);
     }
 }
 

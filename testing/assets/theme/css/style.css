@@ -79,8 +79,8 @@
     padding-top: 0px !important;
 }
 
-@media screen and (min-width: 767px){
-    .card-img{
+@media screen and (min-width: 768px){
+    .card-img img{
         width: 85% !important;
     }
 }

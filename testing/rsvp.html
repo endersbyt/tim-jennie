@@ -25,8 +25,38 @@
     <link href="assets/fonts/style.css" rel="stylesheet">
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css"> </head>
+<style>
+    #overlay {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        cursor: pointer;
+    }
+    
+    #text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 50px;
+        color: white;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+</style>
 
-<body>
+<body onload="msieversion()">
+    <div id="overlay" onclick="off()">
+        <div id="text">
+            <h1 class="display-1">Internet Explorer doesn't support our RSVP page.</h1>
+            <h3 class="display-2">Please use a different browser like Chrome, Firefox, or Edge. If you have trouble with this, please email us to RSVP at wedding@tim-jennie.com</h3> </div>
+    </div>
     <section class="menu cid-rVzWM1wvfa" once="menu" id="menu2-b">
         <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,6 +126,24 @@
                 document.getElementById("top-1").style.display = "none";
             }, 5000);
         });
+    </script>
+    <script>
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+
+        function msieversion() {
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf("MSIE ");
+            if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) // If Internet Explorer, return version number
+            {
+                on();
+            }
+        }
     </script>
 </body>
 

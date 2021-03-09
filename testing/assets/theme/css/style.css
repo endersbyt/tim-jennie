@@ -53,7 +53,7 @@
         width: 100%;
         top:-260px;
         position: absolute;
-        z-index: -5
+        z-index: -5;
         clip: rect(260px, auto, 1640px, auto);
     }
 }
@@ -89,6 +89,7 @@
         width: 85% !important;
     }
 }
+
 
 
 /* Engine built */

@@ -24,11 +24,11 @@
 @media screen and (max-width: 766px){
     .RSVP-iframe{
         overflow:hidden;
-        height: 1750px;
+        height: 1950px;
         width: 100%;
         top:-140px;
         position: absolute;
-        clip: rect(170px, auto, 1530px, auto);*/
+        clip: rect(170px, auto, 1780px, auto);*/
         z-index: -5;
     }
 }
@@ -37,36 +37,37 @@
 @media screen and (min-width: 767px) and (max-width: 991px){
     .RSVP-iframe{
         overflow:hidden;
-        height: 1800px;
+        height: 2200px;
         width: 100%;
         top:-200px;
         position: absolute;
         z-index: -5;
-        clip: rect(200px, auto, 1580px, auto);
+        clip: rect(200px, auto, 1980px, auto);
+       
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1500px){
     .RSVP-iframe{
         overflow:hidden;
-        height: 1800px;
+        height: 2200px;
         width: 100%;
         top:-260px;
         position: absolute;
         z-index: -5;
-        clip: rect(260px, auto, 1640px, auto);
+        clip: rect(260px, auto, 2040px, auto);
     }
 }
 
 @media screen and (min-width: 1501px){
     .RSVP-iframe{
         overflow:hidden;
-        height: 1800px;
+        height: 2200px;
         width: 100%;
         top:-280px;
         position: absolute;
         z-index: -5;
-        clip: rect(280px, auto, 1660px, auto);
+        clip: rect(280px, auto, 2060px, auto);
     }
 }
 

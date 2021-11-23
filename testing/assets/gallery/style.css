@@ -3,6 +3,10 @@
    Gallery
 
 -------*/
+
+.icon-focus{
+    display: none !important;
+}
 .mbr-gallery .mbr-gallery-item {
   position: relative;
   display: inline-block;

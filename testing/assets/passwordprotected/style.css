@@ -1,0 +1,24 @@
+html, body {
+    font-family: 'CMGSans-Regular' !important; 
+}
+#submitPass {
+    font-family: 'CMGSans-Light' !important; 
+}
+#dialogWrapCell {
+    background-image: url('../../assets/images/ezgif.com-gif-maker-6.webp');
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#mainDialog {
+    box-shadow: none !important;
+}
+#dialogText {
+    background-color: #c1b5d9 !important;
+}
+#submitPass {
+    border-radius: 100px !important;
+    border-color: #c1b5d9 !important;
+    background-color: #ffffff !important;
+}

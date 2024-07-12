@@ -70,10 +70,10 @@
               "background-color": "@bg-value"
             },
             ".mbr-section-title": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "header7",
